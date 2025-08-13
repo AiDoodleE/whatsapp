@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "whatsapp-frontend/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "build"
+      }
+    },
+    {
+      "src": "whatsapp-backend/server.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/.*",
+      "dest": "/whatsapp-backend/server.js"
+    },
+    {
+      "src": "/static/(.*)",
+      "dest": "/whatsapp-frontend/static/$1"
+    },
+    {
+      "src": "/asset-manifest.json",
+      "dest": "/whatsapp-frontend/asset-manifest.json"
+    },
+    {
+      "src": "/manifest.json",
+      "dest": "/whatsapp-frontend/manifest.json"
+    },
+    {
+      "src": "/favicon.ico",
+      "dest": "/whatsapp-frontend/favicon.ico"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/whatsapp-frontend/index.html"
+    }
+  ]
+}

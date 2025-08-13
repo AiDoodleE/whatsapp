@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "id": "msg_001",
+      "meta_msg_id": "meta_001",
+      "text": {
+        "body": "Hello, this is a test message"
+      },
+      "timestamp": 1620000000
+    }
+  ],
+  "contacts": [
+    {
+      "wa_id": "1234567890",
+      "profile": {
+        "name": "John Doe"
+      }
+    }
+  ]
+}

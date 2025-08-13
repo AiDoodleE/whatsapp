@@ -1,0 +1,14 @@
+{
+  "statuses": [
+    {
+      "id": "msg_001",
+      "status": "delivered",
+      "timestamp": 1620000100
+    },
+    {
+      "meta_msg_id": "meta_001",
+      "status": "read",
+      "timestamp": 1620000200
+    }
+  ]
+}

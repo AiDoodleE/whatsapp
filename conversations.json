@@ -1,0 +1,26 @@
+﻿[
+    {
+        "_id":  "918329446654",
+        "name":  "Neha Joshi",
+        "lastMessage":  "Hi Neha! Absolutely. We offer curated home decor pieces—are you looking for nameplates, wall art, or something else?",
+        "lastTime":  "2025-08-05T13:37:10.000Z"
+    },
+    {
+        "_id":  "929967673820",
+        "name":  "Neha Joshi",
+        "lastMessage":  "Hi, I saw your ad. Can you share more details?",
+        "lastTime":  "2025-08-05T13:36:40.000Z"
+    },
+    {
+        "_id":  "919937320320",
+        "name":  "Ravi Kumar",
+        "lastMessage":  "Hi, I’d like to know more about your services.",
+        "lastTime":  "2025-08-05T13:20:00.000Z"
+    },
+    {
+        "_id":  "1234567890",
+        "name":  "John Doe",
+        "lastMessage":  "Hello, this is a test message",
+        "lastTime":  "2021-05-03T00:00:00.000Z"
+    }
+]
