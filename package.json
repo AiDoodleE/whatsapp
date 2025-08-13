@@ -8,7 +8,8 @@
   },
   "scripts": {
     "start": "node whatsapp-backend/server.js",
-    "dev": "nodemon whatsapp-backend/server.js"
+    "dev": "nodemon whatsapp-backend/server.js",
+    "build": "cd whatsapp-frontend && npm install && npm run build"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"

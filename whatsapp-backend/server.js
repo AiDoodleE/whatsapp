@@ -70,7 +70,18 @@ mongoose.connection.on('error', err => {
 mongoose.connection.on('disconnected', () => {
   console.log('MongoDB disconnected');});
 
-// Routes
+// Root route
+app.get('/', (req, res) => {
+  res.json({
+    status: 'success',
+    message: 'WhatsApp Clone Backend API is running',
+    documentation: 'Use /api endpoints for the WhatsApp clone functionality',
+    health_check: '/health',
+    process_payloads: '/api/process-payloads (POST)'
+  });
+});
+
+// API Routes
 app.use('/api', require('./routes/messages'));
 
 // Manual trigger for processing payloads
