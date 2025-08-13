@@ -9,7 +9,10 @@
   "scripts": {
     "start": "node whatsapp-backend/server.js",
     "dev": "nodemon whatsapp-backend/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install:frontend": "cd whatsapp-frontend && npm install",
+    "build:frontend": "cd whatsapp-frontend && npm run build",
+    "build": "npm run install:frontend && npm run build:frontend"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
