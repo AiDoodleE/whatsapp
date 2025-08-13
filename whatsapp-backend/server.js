@@ -12,9 +12,13 @@ dotenv.config();
 const app = express();
 
 // CORS configuration
-const allowedOrigins = process.env.ALLOWED_ORIGINS 
-  ? process.env.ALLOWED_ORIGINS.split(',').map(origin => origin.trim())
-  : [];
+const allowedOrigins = [
+  'https://whatsapp-frontend-xrd8.vercel.app',
+  'http://localhost:3000',
+  ...(process.env.ALLOWED_ORIGINS 
+    ? process.env.ALLOWED_ORIGINS.split(',').map(origin => origin.trim())
+    : [])
+].filter(Boolean); // Remove any empty strings
 
 const corsOptions = {
   origin: function (origin, callback) {
