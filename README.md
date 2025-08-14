@@ -13,6 +13,9 @@ Tip: Open (refresh) the backend link every 15 minutes during use or demos to kee
 If you face any issue, simply refresh the backend link 
 # Backend- https://whatsapp-backend-k4ne.onrender.com/
 
+# Preview 
+!{image alt}(https://github.com/AiDoodleE/whatsapp/blob/61d1fcae6752b849d86b906e8b89f9ba31fe038f/Screenshot%20desktop.png)
+
 ## 📌 Features & Implementation
 
 ### 1️⃣ Payload Processing & Database Integration
