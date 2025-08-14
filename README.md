@@ -15,7 +15,8 @@ If you face any issue, simply refresh the backend link
 
 # Preview 
 ![image alt](https://github.com/AiDoodleE/whatsapp/blob/61d1fcae6752b849d86b906e8b89f9ba31fe038f/Screenshot%20desktop.png)
-
+![image alt](https://github.com/AiDoodleE/whatsapp/blob/66582303d8848192ea04b61101c0bb80852026f9/Screenshot%20mobilr.png)
+![image alt](https://github.com/AiDoodleE/whatsapp/blob/66582303d8848192ea04b61101c0bb80852026f9/Screenshot%20ipad.png)
 ## 📌 Features & Implementation
 
 ### 1️⃣ Payload Processing & Database Integration
